@@ -142,15 +142,17 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 
 #micrositeContent h4 a:hover { color: #00679c; font-size: 13px; line-height: 1.3; text-decoration: underline; }
 
-#micrositeContentColumnFull { margin: 0 0 18px; }
+#micrositeContentColumnFull { margin: 0 0 18px; /*h2{color: #274b6b; font-size: 18px;margin: 0 0 10px;}*/ }
 
 #micrositeContentColumnFull .introText { padding: 15px 0 0; }
 
 #micrositeContentColumnFull .introText img { float: right; height: 158px; margin: -15px 0 0; width: 322px; }
 
-#micrositeContentColumnFull .introText h3 { margin: 0 0 .5em; }
+#micrositeContentColumnFull .introText h3 { color: #274b6b; font-size: 18px; margin: 0 0 .5em; }
 
-#micrositeContentColumnFull .introText p { font-size: 14px; line-height: 1.5; width: 620px; }
+#micrositeContentColumnFull .introText p { font-size: 14px; line-height: 1.5; width: 640px; }
+
+#micrositeContentColumnFull .additionalResources h2 { color: #274b6b; font-size: 18px; margin: 0 0 15px; }
 
 #micrositeContentColumnLeft { float: left; width: 620px; }
 
@@ -186,12 +188,12 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 #micrositeContentColumnRight { float: right; margin: 0 25px 25px 0; width: 300px; }
 
 /* header */
-#micrositeHeader { background: #274b6b url(../images/micrositeTemplateLogo.png) no-repeat 20px 40px; height: 116px; margin: 0 0 25px; padding: 0 25px; }
+#micrositeHeader { background: #274b6b url(../images/micrositeTemplateLogo.png) no-repeat 20px 40px; height: 116px; margin: 0; padding: 0 25px; }
 #micrositeHeader h2 { color: #fff; margin-left: 50px; line-height: 116px; }
 
 /* footer */
 #micrositeFooter { background: #274b6b; clear: both; margin: 0; }
-#micrositeFooter h2 { color: #fff; }
+#micrositeFooter h2 { color: #fff; margin: 0; }
 
 /* content callout */
 .micrositeContentCallout { border-top: 2px solid #000; border-bottom: 2px solid #000; width: 150px; float: left; margin: 5px 20px 10px 0; }
@@ -266,14 +268,14 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 .addThisVertical.addthis_32x32_style { width: 52px; margin: 0 10px; left: -62px; }
 .addThisVertical.addthis_32x32_style a { margin: 12px; }
 
-.featuredVideo { border: 1px solid #444444; margin: 0 0 25px; padding: 10px 0 10px 10px; position: relative; overflow: hidden; *zoom: 1; }
+.featuredVideo { border: 1px solid #dddddd; margin: 0 0 15px; padding: 10px 0 10px 10px; position: relative; overflow: hidden; *zoom: 1; }
 .featuredVideo .featuredVideoPlayer { background-color: black; float: left; height: 360px; position: relative; width: 640px; }
 .featuredVideo.noPlaylist .featuredVideoPlayer { width: 920px; height: 520px; }
 .featuredVideo .featuredVideoPlaylist { background-color: #ececec; float: right; height: 380px; margin: -10px 0; overflow-y: scroll; overflow-x: hidden; visibility: hidden; width: 280px; }
-.featuredVideo .featuredVideoPlaylist .featuredVideoPlaylistHeader { color: white; background-color: #444444; font-size: 16px; font-weight: normal; padding: 3px 8px !important; margin: 0 !important; }
+.featuredVideo .featuredVideoPlaylist .featuredVideoPlaylistHeader { color: white; background-color: #666666; font-size: 12px; font-weight: normal; padding: 8px !important; margin: 0 !important; }
 .featuredVideo .featuredVideoPlaylist ul { list-style: none; padding: 0 !important; margin: 3px 0 3px !important; }
 .featuredVideo .featuredVideoPlaylist ul li { cursor: pointer; background-color: white; min-height: 66px; margin-bottom: 2px; border-left: 6px solid #cccccc; }
-.featuredVideo .featuredVideoPlaylist ul li.active { border-left: 6px solid #2ba6cb; }
+.featuredVideo .featuredVideoPlaylist ul li.active { border-left: 6px solid #215075; }
 .featuredVideo .featuredVideoPlaylist .featuredVideoTitle { font-size: 12px; margin: 0 !important; line-height: 1.3 !important; color: black; font-weight: normal; }
 .featuredVideo .featuredVideoPlaylist .mediaBlock, .featuredVideo .featuredVideoPlaylist .mediaBlockContent { overflow: hidden; _overflow: visible; *zoom: 1; }
 .featuredVideo .featuredVideoPlaylist .mediaBlock { padding: 8px 5px; margin: 1px 2px 0; }
@@ -291,7 +293,7 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 .contentTabs .contentTabsNav li.active a { color: white !important; background-color: #274b6b !important; border-bottom: none; position: relative; }
 .contentTabs .arrow, .contentTabs .verticalNavigationArrow, .contentTabs.tabsVerticalLeft .contentTabsNav li.active a:after, .contentTabs.tabsVerticalRight .contentTabsNav li.active a:before, .contentTabs .horizontalNavigationArrow, .contentTabs.tabsHorizontalTop .contentTabsNav li.active a:after, .contentTabs.tabsHorizontalBottom .contentTabsNav li.active a:before { content: ''; position: absolute; display: block; height: 0; width: 0; }
 .contentTabs .verticalNavigationArrow, .contentTabs.tabsVerticalLeft .contentTabsNav li.active a:after, .contentTabs.tabsVerticalRight .contentTabsNav li.active a:before { top: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
-.contentTabs .horizontalNavigationArrow, .contentTabs.tabsHorizontalTop .contentTabsNav li.active a:after, .contentTabs.tabsHorizontalBottom .contentTabsNav li.active a:before { left: 45%; border-left: 5px solid transparent; border-right: 5px solid transparent; }
+.contentTabs .horizontalNavigationArrow, .contentTabs.tabsHorizontalTop .contentTabsNav li.active a:after, .contentTabs.tabsHorizontalBottom .contentTabsNav li.active a:before { left: 45%; border-left: 10px solid transparent; border-right: 10px solid transparent; }
 .contentTabs .verticalNavigation, .contentTabs.tabsVerticalLeft .contentTabsNav, .contentTabs.tabsVerticalRight .contentTabsNav { width: 180px; height: 465px; }
 .contentTabs .verticalNavigation li, .contentTabs.tabsVerticalLeft .contentTabsNav li, .contentTabs.tabsVerticalRight .contentTabsNav li { border-bottom: 1px solid #dddddd; }
 .contentTabs.tabsVerticalLeft .contentTabsNav { float: left; border-right: 1px solid #dddddd; }
@@ -304,7 +306,7 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 .contentTabs .horizontalNavigation li, .contentTabs.tabsHorizontalTop .contentTabsNav li, .contentTabs.tabsHorizontalBottom .contentTabsNav li { display: inline-block; border-left: 1px solid #fff; border-bottom: none; width: 233px; float: left; }
 .contentTabs .horizontalNavigation li:first-child, .contentTabs.tabsHorizontalTop .contentTabsNav li:first-child, .contentTabs.tabsHorizontalBottom .contentTabsNav li:first-child { border-left: 0; width: 234px; }
 .contentTabs.tabsHorizontalTop .contentTabsNav ul { /*border-bottom: 1px solid $component-border-color;*/ }
-.contentTabs.tabsHorizontalTop .contentTabsNav li.active a:after { border-bottom: 5px solid white; top: 31px; }
+.contentTabs.tabsHorizontalTop .contentTabsNav li.active a:after { border-bottom: 10px solid white; top: 29px; }
 .contentTabs.tabsHorizontalBottom .contentTabsNav { position: relative; top: 485px; }
 .contentTabs.tabsHorizontalBottom .contentTabsNav ul { border-top: 1px solid #dddddd; }
 .contentTabs.tabsHorizontalBottom .contentTabsNav li.active a:before { border-bottom: 5px solid #274b6b; top: -10px; }
@@ -349,10 +351,15 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 
 .twoColGrid .mediaBlockImage { width: 80px; height: 100px; }
 
-.oneColList { margin: 0; }
+#micrositeContent .oneColList { margin: 0; }
+#micrositeContent .oneColList .mediaBlockContent h4 { color: #274b6b; font-size: 14px; }
+#micrositeContent .oneColList .mediaBlockContent h4 a { color: #274b6b; font-size: 14px; line-height: 1.3; text-decoration: none; }
+#micrositeContent .oneColList .mediaBlockContent h4:hover { color: #2795b6 !important; text-decoration: none; }
+#micrositeContent .oneColList .mediaBlockContent p a { color: #274b6b; font-size: 14px; }
+#micrositeContent .oneColList .mediaBlockContent p a:hover { color: #2795b6; text-decoration: none; }
 
 .oneColList li { border-top: 1px solid #ddd; margin: 0; padding: 15px 0 0; }
 
-.oneColList h4 { color: #274b6b; font-size: 16px; margin: 0 0 5px !important; }
+.oneColList h4 { color: #274b6b; font-size: 14px; margin: 0 0 5px !important; }
 
 .oneColList p { margin: 0 0 5px !important; }
