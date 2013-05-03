@@ -45,6 +45,7 @@ $pinned-panel-top-height: 150px;
     height: 36px;
     position: relative;
     margin-top:-20px;
+    *margin-top:0;
 
     ul {
       background-color: $navigation-horizontal-bgColor;

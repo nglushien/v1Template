@@ -286,7 +286,7 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 .featuredVideo .featuredVideoPlayerOverlay { height: 360px; width: 640px; background-color: #ccc; opacity: .5; position: absolute; top: 0; left: 0; }
 
 .contentTabs { border: 1px solid #dddddd; margin: 0 0 25px; overflow: hidden; position: relative; }
-.contentTabs .contentTabsNav { background-color: #fafafa; height: 36px; position: relative; margin-top: -20px; }
+.contentTabs .contentTabsNav { background-color: #fafafa; height: 36px; position: relative; margin-top: -20px; *margin-top: 0; }
 .contentTabs .contentTabsNav ul { background-color: white; margin: 0 !important; padding: 0 !important; list-style: none; }
 .contentTabs .contentTabsNav li a { color: black !important; background-color: #ececec !important; display: block; text-transform: uppercase; padding: 8px 10px; max-height: 36px; font-family: arial; font-size: 10px; font-weight: 700; text-transform: uppercase; }
 .contentTabs .contentTabsNav li a:hover { color: black !important; background-color: #d4e9f2 !important; text-decoration: none !important; }
